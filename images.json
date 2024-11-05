@@ -1,82 +1,74 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/songs/throwaway.jpg",
+            "name": "Throw Away",
+            "artist": "Future",
+            "album": "Monster",
+            "length": "5:16"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/songs/devilinanewdress.jpg",
+            "name": "Devil In A New Dress",
+            "artist": "Kanye West feat. Rick Ross",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "length": "5:51"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/songs/walkin.jpg",
+            "name": "Walkin",
+            "artist": "Denzel Curry",
+            "album": "Melt My Eyez See Your Future",
+            "length": "4:40"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/songs/codeinecrazy.jpg",
+            "name": "Codeine Crazy",
+            "artist": "Future",
+            "album": "Monster",
+            "length": "5:46"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
-            "date": "01/05/2016"
+            "imgPath": "img/songs/theblackertheberry.jpg",
+            "name": "The Blacker The Berry",
+            "artist": "Kendrick Lamar",
+            "album": "To Pimp A Butterfly",
+            "length": "5:28"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/songs/love.jpg",
+            "name": "love.",
+            "artist": "Kid Cudi",
+            "album": "The Boy Who Flew to the Moon, Vol. 1",
+            "length": "5:28"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/songs/stargazing.jpg",
+            "name": "STARGAZING",
+            "artist": "Travis Scott",
+            "album": "ASTROWORLD",
+            "length": "4:30"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/songs/nights.jpg",
+            "name": "Nights",
+            "artist": "Frank Ocean",
+            "album": "Blonde",
+            "length": "5:07"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/songs/sweet.jpg",
+            "name": "SWEET / I THOUGHT YOU WANTED TO DANCE",
+            "artist": "Tyler, The Creator feat. Brent Faiyaz & Fana Hues",
+            "album": "CALL ME IF YOU GET LOST",
+            "length": "9:48"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/songs/offdazoinkys.jpg",
+            "name": "Off Da Zoinkys",
+            "artist": "JID",
+            "album": "DiCaprio 2",
+            "length": "3:28"
         }
   ]
 }
