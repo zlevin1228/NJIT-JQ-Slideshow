@@ -23,6 +23,13 @@ $(document).ready(() => {
 // Function to fetch JSON data and store it in mImages
 function fetchJSON () {
   // Use $.ajax here to request the JSON data from mUrl
+  $.ajax({
+    url: mURL,
+    dataType: "json",
+    success: function (response) {
+     mImages = data.images
+    }
+  });
   // On success, parse the JSON and push each image object into mImages array
   // After JSON is loaded, call swapPhoto() to display the first image
 }
