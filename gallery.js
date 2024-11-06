@@ -26,19 +26,30 @@ function fetchJSON () {
   $.ajax({
     url: mURL,
     dataType: "json",
-    success: function (response) {
-     mImages = data.images
+    // On success, parse the JSON and push each image object into mImages array
+    success: function (data) {
+    mImages = data.images
+    // After JSON is loaded, call swapPhoto() to display the first image
+    swapPhoto()
+    },
+    error: function () {
+      alert("Error file not working")
     }
   });
-  // On success, parse the JSON and push each image object into mImages array
-  // After JSON is loaded, call swapPhoto() to display the first image
+
 }
 
 // Function to swap and display the next photo in the slideshow
 function swapPhoto () {
   // Access mImages[mCurrentIndex] to update the image source and details
+  const images = mImages[mCurrentIndex]
   // Update the #photo element's src attribute with the current image's path
+  $('#photo').attr('src', images.imgPath)
   // Update the .location, .description, and .date elements with the current image's details
+  $('.name').text(`Song Name: ${images.name}`)
+  $('.artist').text(`Artist: ${images.artist}`)
+  $('.album').text(`Album: ${images.album}`)
+  $('.length').text(`Length: ${images.length}`)
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
